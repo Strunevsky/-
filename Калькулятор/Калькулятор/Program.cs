@@ -46,6 +46,10 @@ namespace Calculator
                     otvet = a / b;
                     Console.WriteLine(a + " / " + b + " = " + otvet);
                 }
+        else
+                {
+                    Console.WriteLine("Неизвестный оператор.");
+                }
         }
     }
 }
