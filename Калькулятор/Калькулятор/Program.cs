@@ -26,7 +26,11 @@ namespace Calculator
             Console.WriteLine("Введите В:");
             b = Convert.ToDouble(Console.ReadLine());
         }
-                
+              if (operation == '+')
+                {
+                    otvet = a + b;
+                    Console.WriteLine(a + " + " + b + " = " + otvet);
+                }   
             
         }
     }
