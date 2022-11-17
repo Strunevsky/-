@@ -41,7 +41,12 @@ namespace Calculator
                     otvet = a * b;
                     Console.WriteLine(a + " * " + b + " = " + otvet);
                 }
-
+              else if (operation == '/')
+                {
+                    otvet = a / b;
+                    Console.WriteLine(a + " / " + b + " = " + otvet);
+                }
+                else
     
         else
                 {
